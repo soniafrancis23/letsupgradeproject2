@@ -1,0 +1,131 @@
+body{
+    background-color: #dcd0ff;
+    font-family: poppins;
+}
+header{
+    height: 70px;
+    position: relative;
+}
+.logo-span{
+    margin-left: 20pxpx;
+    position: absolute;
+    height: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 16px 30px;
+    font-size: 30px;
+
+}
+.header_links{
+    padding: 20px 10px;
+    position: absolute;
+    right: 20px;
+    word-spacing: 2px;
+}
+.links{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-family: poppins;
+
+} 
+#contact{
+    color: purple;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.main_body{
+    margin: 20px 20px;
+    background-color:white ;
+    border-radius: 8px;
+    position: relative;
+    
+}
+.form_buttons{
+    display: flex;
+}
+.image_tag{
+    background-image: url("123456.png");
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-left: 20px;    
+}
+.letsgrow{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    text-shadow: 2px 1px grey;
+   
+}
+.form_div{
+    border: 2px solid purple;
+    border-radius: 8px;
+    margin-left: 20px;
+    width:600px;
+    margin-right: 20px;
+    position: relative;
+    background-color: lavender
+    
+}
+.form_h1{
+    text-align: center;
+    color: purple;
+}
+.inside_form{
+    margin-left: 200px;
+    position: absolute;
+    width: 200px;
+    
+}
+label{
+    font-size: 15px;
+    color: purple;
+    
+}
+input{
+
+    border: none;
+    border-radius: 5px;
+    background-color:aliceblue;
+    box-shadow: 2px 2px lavender;
+}
+input:hover{
+    padding: 8px 8px;
+}
+.login_button{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px 5px;
+    color: purple;
+}
+.account{
+    font-size: 10px
+}
+.card_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    
+    
+}
+.card:hover{
+    background-color: #dcd0ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
